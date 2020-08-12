@@ -4,5 +4,5 @@ Website for the Southern Oregon Mini Art Residency (SOMAR).  No JS libraries or 
 
 ## compress_images
 
-    npm install -g compress-images
-    compress-images images_original images_compressed
+    npm install -g imagemin-cli --unsafe-perm
+    imagemin images_original -o images_compressed

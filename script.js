@@ -36,6 +36,9 @@ const exhibits = [
     statement: 'Cool',
     url: '5gct71l8hm'
 },
+];
+
+/*
 {
     name: 'Yasaman Sheri',
     form: 'AI Botany',
@@ -48,7 +51,7 @@ const exhibits = [
     statement: '',
     url: '5gct71l8hm'
 },
-]
+/*
 
 // Exhibit functionality
 function loadExhibits() {

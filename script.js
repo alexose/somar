@@ -30,12 +30,17 @@ const template = (name, obj) => {
 
 // exhibit-specific stuff 
 const exhibits = [
-{
-    name: 'Paula Te',
-    form: 'Shibori',
-    statement: 'Cool',
-    url: '5gct71l8hm'
-},
+    {
+        name: 'Paula Te',
+        form: 'Shibori',
+        statement: `
+            <p>
+            "I explored a set of ideas around digital fabrication and dyeing, the former which I am very familiar with and the latter which I am not. I ended up with many explorations into how laser cut objects could function as resists (known in Japanese as itajime shibori)."
+            </p>
+            <a href="https://www.notion.so/Oregon-Mini-Artist-Residency-77584e04fa3845138a10e70d2fdc4645">Additional Documentation</a>
+        `,
+        url: '5gct71l8hm'
+    },
 ];
 
 /*

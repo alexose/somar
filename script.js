@@ -51,7 +51,7 @@ const exhibits = [
     statement: '',
     url: '5gct71l8hm'
 },
-/*
+*/
 
 // Exhibit functionality
 function loadExhibits() {

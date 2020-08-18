@@ -6,14 +6,27 @@
 <link rel="stylesheet" href="css/preface.min.css">
 <title>Southern Oregon Mini Art Residency 2020</title>
 <style>
-.photos {
-    position: absolute;
+
+html, body {
+    height: 100%;
+}
+
+section,
+#exhibit {
+  display: flex;
+  flex-flow: column;
+  height: calc(100vh - 75px);
+}
+
+section .photos,
+#exhibit .photos {
     left: 0;
     right: 0;
-    height: calc(100vh - 166px);
+    flex: 1 1 auto;
     width: 100%;
     border: 0;
 }
+
 #menu {
     overflow: hidden;
     transition: max-height 1s ease-in-out;
@@ -21,6 +34,7 @@
 </style>
 </head>
 <body>
+
 <header>
     <nav>
         <label>Southern Oregon Mini Art Residency 2020</label>
@@ -32,8 +46,8 @@
     </nav>
 </header>
 
-<main class="container">
-    <section data-main></section>
+<section data-main></section>
+
 </main>
 </body>
 

@@ -90,7 +90,7 @@ function loadExhibits() {
             menu.style.maxHeight = 0;
             container.innerHTML = `
                 <div class="container">
-                    <a class="back" onclick="goBack()">&laquo; Back</a>
+                    <a class="back" style="display: block; padding: 15px 0px" onclick="goBack()">&laquo; Back</a>
                     <h2>${name} - ${form}</h2>
                     <p>${statement}</p>
                 </div>

@@ -12,7 +12,7 @@ document.querySelectorAll('[data-nav]').forEach(element => {
             .then(() => {
                 if (element.href.includes('exhibits')) loadExhibits();
             });
-       
+
     };
 
     // Load 'about' page by default
@@ -28,7 +28,7 @@ const template = (name, obj) => {
         });
 }
 
-// exhibit-specific stuff 
+// exhibit-specific stuff
 const exhibits = [
     {
         name: 'Paula Te',
@@ -89,7 +89,7 @@ function loadExhibits() {
                     <h2>${name} - ${form}</h2>
                     <p>${statement}</p>
                 </div>
-                <iframe src="https://photodump-app.wn.r.appspot.com/#${url}!light!silent!horizontal" class="photos"></iframe>
+                <iframe src="https://photodump-app-wmp3ybs6ua-uw.a.run.app/#${url}!light!silent!horizontal" class="photos"></iframe>
             `;
         };
         li.appendChild(a);

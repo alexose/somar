@@ -106,10 +106,6 @@ function loadExhibits() {
         li.appendChild(a);
         ul.appendChild(li);
     });
-
-    document.querySelectorAll('.exhibits a').forEach(d => {
-        console.log(d);
-    });
 }
 
 })();

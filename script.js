@@ -77,20 +77,31 @@ function loadExhibits() {
     const menu = document.getElementById('menu');
     const ul = document.getElementById('exhibits');
     const container = document.getElementById('exhibit');
+    container.style.display = "none";
 
     exhibits.forEach(({ name, form, statement, url }) => {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.innerText = `${name} - ${form}`
         a.onclick = e => {
+            // TODO: update url
+            container.style.display = "flex";
+
             menu.style.maxHeight = 0;
             container.innerHTML = `
                 <div class="container">
+                    <a class="back" onclick="goBack()">&laquo; Back</a>
                     <h2>${name} - ${form}</h2>
                     <p>${statement}</p>
                 </div>
                 <iframe src="https://photodump-app-wmp3ybs6ua-uw.a.run.app/#${url}!light!silent!horizontal" class="photos"></iframe>
             `;
+
+            window.goBack = function(e){
+                // TODO: update url
+                menu.style.maxHeight = "none";
+                container.style.display = "none";
+            }
         };
         li.appendChild(a);
         ul.appendChild(li);

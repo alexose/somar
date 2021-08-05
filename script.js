@@ -31,7 +31,7 @@ const template = (name, obj) => {
 // exhibit-specific stuff
 const exhibits = [
     {
-        name: 'Paula Te',
+        name: 'Paula T.',
         form: 'Shibori',
         statement: `
             <p>
@@ -42,7 +42,16 @@ const exhibits = [
         url: '5gct71l8hm'
     },
     {
-        name: 'Erica Dorn',
+        name: 'Yasaman S.',
+        form: 'AI Botany',
+        statement: `
+            <p>
+                Yasaman explored generative botany with an AI trained on the native species around the property.
+            </p>
+        `,
+    },
+    {
+        name: 'Erica D.',
         form: 'Children\'s Book',
         statement: `
             <p>
@@ -52,7 +61,7 @@ const exhibits = [
         url: 'odz8cbt2xp'
     },
     {
-        name: 'Ken Kinoshita',
+        name: 'Ken K.',
         form: 'Color',
         statement: `
             <p>
@@ -62,16 +71,7 @@ const exhibits = [
         url: 'hffmpwu2i0'
     },
     {
-        name: 'Yasaman Sheri',
-        form: 'AI Botany',
-        statement: `
-            <p>
-                Yasaman explored generative botany with an AI trained on the native species around the property.
-            </p>
-        `,
-    },
-    {
-        name: 'Sylvia Tan',
+        name: 'Sylvia T.',
         form: 'Ghanian Textiles',
         statement: `
             <p>
@@ -80,8 +80,17 @@ const exhibits = [
         `,
     },
     {
-        name: 'Denise Wang',
+        name: 'Denise W.',
         form: 'Origami',
+        statement: `
+            <p>
+
+            </p>
+        `,
+    },
+    {
+        name: 'Heidi E.',
+        form: 'Generative Music',
         statement: `
             <p>
 
